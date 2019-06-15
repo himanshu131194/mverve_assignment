@@ -5,22 +5,22 @@ const router = express.Router();
 
 router.get('/sample-gene', adminController.addGenerations)
 
-router.get('/genre', adminController.listGenres)
+router.get('/genres', adminController.listGenres)
 
-router.post('/genre', adminController.addGenre)
+router.post('/genres', adminController.addGenre)
 
-router.put('/genre', adminController.updateGenre)
+router.put('/genres', adminController.updateGenre)
 
-router.delete('/genre', adminController.deleteGenre)
+router.delete('/genres', adminController.deleteGenre)
 
 
-router.get('/movie', adminController.listMovies)
+router.get('/movies', adminController.listMovies)
 
-router.post('/movie', adminController.addNewMovie)
+router.post('/movies', adminController.addNewMovie)
 
-router.put('/movie', adminController.updateMovie)
+router.put('/movies', adminController.updateMovie)
 
-router.delete('/movie', adminController.deleteMovies)
+router.delete('/movies', adminController.deleteMovies)
 // router.get('/upload-users', adminController.uploadUsers)
 
 // router.get('/list-users', adminController.listUsers)
